@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="convert.png"/>
+            <a href="index.html" class="nav-links-first">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn nav-links">Number Base Convertors
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="DecimalConvertor.html">Decimal Convertor</a>
+                    <a href="hexConvertor.html">Hex Convertor</a>
+                    <a href="decimalConvertor.html">Decimal Convertor</a>
+                </div>
+            </div> 
+            <a href="index.html" class="nav-links">Unit Convertors</a>
+            <a href="index.html"class="nav-links">Reg/Hex Convertors</a>
+        </nav>
+    </header>
+    <div>
+        <h2>Hex To Decimal Convertor</h2>
+    </div>
+    <div class="container">
+        <input type="text" class="input-value hex" placeholder="Ex: 11001">
+    </div>
+    <div class="container">
+        <button class="btn-hex">Submit</button>
+    </div>
+    <h5 class="result-hex"></h5>
+
+    <div>
+        <h2>Hex To Octal Convertor</h2>
+    </div>
+    <div class="container">
+        <input type="text" class="input-value octal" placeholder="Ex: 11001">
+    </div>
+    <div class="container">
+        <button class="btn-octal">Submit</button>
+    </div>
+    <h5 class="result-octal"></h5>
+
+    <div>
+        <h2>Hex To Binary Convertor</h2>
+    </div>
+    <div class="container">
+        <input type="text" class="input-value decimal" placeholder="Ex: 11001">
+    </div>
+    <div class="container">
+        <button class="btn-decimal">Submit</button>
+    </div>
+    <h5 class="result-decimal"></h5>
+    <script src="hex.js"></script>
+</body>
+</html>
